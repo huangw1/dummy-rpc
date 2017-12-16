@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c2efa65-7a4f-45be-a003-ce7913686652" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/client/Customer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/rpc/InvocationProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/rpc/RpcFramework.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/rpc/ThreadPoolHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/rpc/WorkThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/Provider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/service/CalculateService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/service/GreetingService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/service/impl/CalculateServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/server/service/impl/GreetingServiceImpl.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/client/Customer.java" afterPath="$PROJECT_DIR$/src/main/java/normal/client/Customer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/rpc/InvocationProxy.java" afterPath="$PROJECT_DIR$/src/main/java/normal/rpc/InvocationProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/rpc/RpcFramework.java" afterPath="$PROJECT_DIR$/src/main/java/normal/rpc/RpcFramework.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/rpc/ThreadPoolHelper.java" afterPath="$PROJECT_DIR$/src/main/java/normal/rpc/ThreadPoolHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/rpc/WorkThread.java" afterPath="$PROJECT_DIR$/src/main/java/normal/rpc/WorkThread.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/server/Provider.java" afterPath="$PROJECT_DIR$/src/main/java/normal/server/Provider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/server/service/CalculateService.java" afterPath="$PROJECT_DIR$/src/main/java/normal/server/service/CalculateService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/server/service/GreetingService.java" afterPath="$PROJECT_DIR$/src/main/java/normal/server/service/GreetingService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/server/service/impl/CalculateServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/normal/server/service/impl/CalculateServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/server/service/impl/GreetingServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/normal/server/service/impl/GreetingServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dummy-rpc.iml" afterPath="$PROJECT_DIR$/dummy-rpc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -134,15 +113,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <first_editor relative-caret-position="17">
+                <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,16 +141,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
               <caret line="16" column="108" lean-forward="false" selection-start-line="16" selection-start-column="104" selection-end-line="16" selection-end-column="108" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GreetingService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/normal/server/service/GreetingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -208,7 +187,6 @@
         <option value="$PROJECT_DIR$/src/main/java/rpc/RpcFramework.java" />
         <option value="$PROJECT_DIR$/src/main/java/standard/server/Provider.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/Provider.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/netty/rpc/common/bean/RpcResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/rpc/common/bean/RpcRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/rpc/common/util/SerializationUtil.java" />
@@ -225,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/main/java/netty/rpc/test/Provider.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/rpc/server/RpcServer.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -985,12 +964,12 @@
       <workItem from="1513340868876" duration="101000" />
       <workItem from="1513340976790" duration="489000" />
       <workItem from="1513341499510" duration="448000" />
-      <workItem from="1513341954097" duration="14271000" />
+      <workItem from="1513341954097" duration="14371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47787000" />
+    <option name="totallyTimeSpent" value="47887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="963" extended-state="6" />
@@ -1461,11 +1440,19 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
